@@ -12,10 +12,11 @@
     align-items: center;
     background-color: #f4f4f4;
     margin: 10px 0;
-    padding: 10px;
-    border-radius: 8px;
+    padding: 15px 20px;
+    border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
+    min-height: 60px;
 }
 
 .contactItem:hover {
@@ -25,28 +26,37 @@
 .contactInfo {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+
+    gap: 5px;
+
 }
 
 .contactName {
-    font-size: 1.2em;
+    font-size: 1.4em;
+
     font-weight: bold;
-    color: #555;
+    color: #333;
 }
 
 .contactNumber {
     font-size: 1em;
-    color: #555;
-
+    color: #777;
 }
 
 .deleteButton {
-    padding: 8px 16px;
+    padding: 10px 18px;
+
     background-color: #e74c3c;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-size: 1em;
+
+    margin-left: 15px;
+
 }
 
 .deleteButton:hover {
